@@ -1,0 +1,60 @@
+.developerDiv{
+  position:sticky;
+  &__heading{
+      font-size: 100px;
+      margin-top: 8%;
+      text-align: center;
+      color: white;
+        &__horizLine{
+          border: 2px solid grey;
+        }
+    }
+  &__developer{
+      font-size: 25px;
+      font-family: 'Courier New', Courier, monospace;
+      text-align: center;
+      color: white;
+      font-weight: 600;
+    }
+    &__Buttons{
+      &__port,&__cont{
+        text-align: center;
+        margin-top: 30%;
+        background: rgb(201, 198, 198);
+        padding: 7px; 
+        color: rgb(54, 53, 53); 
+        cursor: pointer;
+        text-decoration: none;
+      }
+      &__portImg{
+        width: 90%;
+        border-radius: 50%;
+      } 
+      &__port:hover,&__cont:hover{
+        text-decoration: none;
+        background: rgb(53, 52, 52);
+        color: white;
+      } 
+    }  
+}
+@media only screen and (max-width: 500px){
+  .developerDiv{
+    margin-top: 30%;
+    &__heading{ 
+      font-size: 50px; 
+    }
+    &__developer{
+      font-size: 20px;
+    }
+    &__Buttons{
+      width: 60%;
+      margin: auto;
+      &__port,&__cont{
+        margin-top: 15%; 
+      }
+      &__portImg{
+        width: 100%;
+      } 
+    }  
+  }
+}

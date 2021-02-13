@@ -1,0 +1,29 @@
+.skillCont{
+    height: 90vh;
+    padding-top: 5%;
+    background-color: black;
+    .progress{
+        margin-bottom: 6%;    
+    }
+    button{
+        background: rgb(97, 97, 97);
+        font-size: 16px;
+        font-weight: 600;
+        color: white;
+    }
+    &__skillimg{
+        width: 100%;
+    }
+    h2{
+        color: white;
+        text-align: center;
+        margin-bottom: 5%;
+    }
+}
+@media only screen and (max-width: 500px){
+    .skillCont{
+        button{ 
+            font-size: 10px;     
+        }
+    } 
+}
